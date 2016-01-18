@@ -45,8 +45,6 @@ public class NewClassTest {
         System.out.println("main");
         String[] args = null;
         NewClass.main(args);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
     /**
@@ -67,14 +65,12 @@ public class NewClassTest {
     @org.junit.Test
     public void testConflicSpace() {
         System.out.println("conflicSpace");
-        int a = 0;
-        int b = 0;
+        int a = 5;
+        int b = 5;
         NewClass instance = new NewClass();
         int expResult = 0;
         int result = instance.conflicSpace(a, b);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
     
 }
