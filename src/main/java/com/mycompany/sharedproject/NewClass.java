@@ -16,7 +16,7 @@ public class NewClass {
     }
 
     public void methodAnd() {
-        //TODO:Андрей напиши здесь, что-нибудь
+        System.out.println("Парам пам пам");
     }
 
     /**
