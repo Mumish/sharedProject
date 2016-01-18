@@ -14,8 +14,21 @@ public class NewClass {
     public static void main(String[] args) {
         System.out.println("Hello World!"); // Display the string.
     }
-    
-    public void methodAnd(){
+
+    public void methodAnd() {
         //TODO:Андрей напиши здесь, что-нибудь
+    }
+
+    /**
+     * Тут будет место конфликта
+     *
+     * @param a
+     * @param b
+     * @return
+     */
+    public int conflicSpace(int a, int b) {
+        int zero = 0;
+
+        return zero;
     }
 }
