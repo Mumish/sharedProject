@@ -27,7 +27,7 @@ public class NewClass {
      * @return
      */
     public int conflicSpace(int a, int b) {
-        int zero = 0;
+        int zero = b-a;
 
         return zero;
     }
